@@ -12,9 +12,9 @@ document.querySelectorAll("");
 // Dom Css Styles 
 element.style.backgroundColor = 'red'
 
-// Dom Attributes
+// Dom Attributes (id, className ,'src',... )
 element.getAttribute('class')
-element.setAttribute('class' ,'li-elems' )
+element.setAttribute('id' ,'li-elems'  )
 element.removeAttribute('class')
 
 // Dom ClassNames
@@ -30,4 +30,25 @@ element.textContent = 'insert a text'
 // Dom Value 
 element.value = 'insert a value'
 
+//Dom Create element 
+let newElement = document.createElement ('div')
+
+//Dom Methods
+element.append(newElement)
+element.appendChild(newElement)
+
+// Dom Events
+onchange() , onfocus() , onblur() , onclick() , ondblclick() , ondrag() ,
+oncopy() , oncut(),
+onkeydown() , onkeyup() , onkeypress()
+
+// Create Functions
+function clickHandler (){
+    // ...
+}
+
+// Set Events on Dom elements
+element.addEventListener('event',function(){
+    ///...
+})
 
